@@ -1,0 +1,12 @@
+.excuses {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.twttrfeed iframe,
+.positioncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
