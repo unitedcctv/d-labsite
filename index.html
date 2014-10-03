@@ -4,16 +4,36 @@
 </head>
 
 <body>
-	<header>
-  		<img src="dlablogo.png" class="mainlogo positioncenter">
-  		<h2 class="excuses  positioncenter">Coming soon! for now here's some free money and tweets</h2>
-  		<a href="https://qoinpro.com/69e297881fc47c5d538ca2cfbcdade07" class="freemoney .positioncenter"><img src="freemoney.png" class="positioncenter"></a>
-	</header>
-	{{> twitterfeed}}
+	{{> startpage}}
+	<div id="secondpage" class="prereveal">
+		{{> freemoney}}
+		{{> twitterfeed}}
+	</div>
+	<div id="footer"></div>
 </body>
+
+<template name="startpage">
+	<div id="startpage" class="prereveal">
+		<header class="vposstartpage">
+	  		<img src="dlablogo.png" class="mainlogo positioncenter">
+	  		<h2 class="excuses  positioncenter">Coming soon! for now here's some <a href="#secondpage">free money and tweets</a></h2>
+		</header>
+	</div>
+</template>
 
 <template name="twitterfeed">
 	<div class="twttrfeed">
-		<a class="twitter-timeline" data-chrome="nofooter noborders" data-tweet-limit="3" href="https://twitter.com/unitedcctv" data-widget-id="515142529788805120">Tweets by @unitedcctv</a>
+		<a class="twitter-timeline" data-chrome="nofooter noborders" data-tweet-limit="3" href="https://twitter.com/unitedcctv" data-widget-id="515142529788805120"></a>
 	</div>
+</template>
+
+<template name="freemoney">
+	<a href="https://qoinpro.com/69e297881fc47c5d538ca2cfbcdade07" class="prereveal button positioncenter freemoneylink">Free money!</a>
+	<p class="freemoneyDesc positioncenter">Get multiple digital currencies free with QoinPro. Simply sign-up and receive the free coins every day. You are not going to get rich but you only have to give an email address and they have a strict no spam policy.</p>
+</template>
+
+<template name="moneytooltip">
+	<aside class="moneytip">
+		<img src="dlablogo.png" class="mainlogo positioncenter">
+	</aside>
 </template>

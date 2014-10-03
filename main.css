@@ -1,5 +1,15 @@
+body {
+	font-family: "AtlasTypewriterRegular", 
+	"Andale Mono", 
+	"Consolas", 
+	"Lucida Console", 
+	"Menlo", 
+	"Luxi Mono", 
+	monospace;
+	color: #999
+}
+
 .excuses {
-	font-family: sans-serif;
 	text-align: center;
 }
 
@@ -10,3 +20,62 @@
 	margin-right: auto;
 }
 
+.prereveal {
+	display: none;
+}
+
+.vposstartpage {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.freemoneylink {
+	width: 500px;
+}
+
+.freemoneyDesc {
+	width: 530px;
+	margin-bottom: 100px;
+	line-height: 150%;
+}
+
+.button {
+	font-family: inherit;
+	padding: 1em 1em;
+	border: 1px solid #999;
+	text-decoration: none;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #EEE
+}
+
+div#footer {
+	display: block;
+	height: 100px;
+	width: 100%;
+}
+
+a {
+	color: #0084b4;
+	text-decoration: none;
+	border-bottom: solid 2px #0084b4;
+    display: inline;
+    padding-bottom: 3px;
+}
+
+a:visited {
+	color: #CC0000;
+	border-color: #CC0000;
+}
+
+a.button:visited {
+	border-color: #999
+}
+
+#secondpage {
+	padding-top: 60px;
+}
