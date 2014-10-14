@@ -5,6 +5,7 @@
 
 <body>
 	{{> startpage}}
+	{{> xdpprice}}
 	<div id="secondpage" class="prereveal">
 		{{> freemoney}}
 		{{> twitterfeed}}
@@ -30,6 +31,10 @@
 <template name="freemoney">
 	<a href="https://qoinpro.com/69e297881fc47c5d538ca2cfbcdade07" class="prereveal button positioncenter freemoneylink">Free money!</a>
 	<p class="freemoneyDesc positioncenter">Get multiple digital currencies free with QoinPro. Simply sign-up and receive the free coins every day. You are not going to get rich but you only have to give an email address and they have a strict no spam policy.</p>
+</template>
+
+<template name="xdpprice">
+	<iframe id="widget-ticker-preview" src="//www.coingecko.com/en/widget_component/ticker/dogeparty/btc" style="border:none; height:125px; width: 275px;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 </template>
 
 <template name="moneytooltip">
